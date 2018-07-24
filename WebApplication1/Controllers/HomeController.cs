@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        //Contact Method
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
